@@ -126,7 +126,12 @@ form {
   color: #ffeb3b;
   border-color: #ffeb3b;
 }
-
+.image{
+  height: 20rem;
+}
+.image img{
+  height: 100%;
+}
 .backdrop {
   position: fixed;
   top: 0;
