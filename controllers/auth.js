@@ -7,7 +7,7 @@ const User = require('../models/user');
 
 const transporter=nodemailer.createTransport(sendgridTransport({
   auth:{
-    api_key:'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'
+    api_key:process.env.api_key
   }
 })) 
 
